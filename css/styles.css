@@ -6624,4 +6624,19 @@ p {
     margin-top: -3rem;
     max-width: 50vw;
   }
+
+  .formulario {
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+
+  .nome-completo {
+
+    margin-top: 5px;
+  }
+
+  .email {
+
+    margin-top: 5px;
+
+  }
 }
