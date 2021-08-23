@@ -6625,18 +6625,43 @@ p {
     max-width: 50vw;
   }
 
-  .formulario {
-    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
+fieldset {
+  border: 0;
+}
 
-  .nome-completo {
+input, select, button {
+  border-radius: 5px;
+}
 
-    margin-top: 5px;
-  }
+form {
+  justify-content: center;
+  margin-left: 7%;
+  margin-top: -10%;
+}
 
-  .email {
+.botao {
 
-    margin-top: 5px;
+  color: #fff;
+  background-color: #1f4e70;
+  border-color: #1e3a4e;
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
 
-  }
+.botao:hover {
+  background: #CCBBFF;
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: none;
+}
+
+.botao, select{
+  cursor: pointer;
+}
 }

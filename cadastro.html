@@ -56,16 +56,16 @@
 
                                                     <form>
 
-                                                        <fieldset>
-                                                            <label id="cabecalho">Informações Pessoais</label>
+                                                        <fieldset class="grupo-fieldset">
+                                                            <label id="cabecalho"><strong>Informações Pessoais</strong></label>
                                                             <div>
                                                                 <label>Nome Completo</label>
-                                                                <input type="text" name="nome" id="nome">
+                                                                <input type="text" name="nome" id="nome" required>
                                                             </div>
 
                                                             <div>
                                                                 <label>Genero</label>
-                                                                <select id="genero">
+                                                                <select id="genero" required>
                                                                     <option selected disabled value="">Selecione</option>
                                                                     <option>Feminino</option>
                                                                     <option>Masculino</option>
@@ -76,7 +76,7 @@
 
                                                             <div>
                                                                 <label>Estado Civil</label>
-                                                                <select id="estadocivil">
+                                                                <select id="estadocivil" required>
                                                                     <option selected disabled value="">Selecione</option>
                                                                     <option>Solteiro(a)</option>
                                                                     <option>Casado(a)</option>
@@ -87,27 +87,27 @@
 
                                                             <div>
                                                                 <label>Endereço</label>
-                                                                <input type="text" name="endereco" id="endereco">
+                                                                <input type="text" name="endereco" id="endereco" required>
                                                             </div>
 
                                                             <div>
                                                                 <label>CEP</label>
-                                                                <input type="email" name="cep" id="cep">
+                                                                <input type="email" name="cep" id="cep" required>
                                                             </div>
 
                                                             <div>
                                                                 <label>Bairro</label>
-                                                                <input type="text" name="bairro" id="bairro">
+                                                                <input type="text" name="bairro" id="bairro" required>
                                                             </div>
 
                                                             <div>
                                                                 <label>Cidade</label>
-                                                                <input type="text" name="cidade" id="cidade">
+                                                                <input type="text" name="cidade" id="cidade" required>
                                                             </div>
 
                                                             <div>
                                                                 <label>Estado</label>
-                                                                <select id="estado">
+                                                                <select id="estado" required>
                                                                     <option selected disabled value="">Selecione</option>
                                                                     <option>Acre</option>
                                                                     <option>Alagoas</option>
@@ -143,37 +143,37 @@
 
                                                         <fieldset>
                                                         
-                                                            <label id="cabecalho">Contato</label>
+                                                            <label id="cabecalho"><strong>Contato</strong></label>
 
                                                             <div>
                                                                 <label>Email</label>
-                                                                <input type="email" name="email" id="email">
+                                                                <input type="email" name="email" id="email" required>
                                                             </div>
 
                                                             <div>
                                                                 <label>Celular</label>
-                                                                <input type="tel" name="celular" id="celular" pattern="[0-9]{1}-[0-9]{4}-[0-9]{4}">
+                                                                <input type="tel" name="celular" id="celular" pattern="[0-9]{1}-[0-9]{4}-[0-9]{4}" required>
                                                             </div>
 
                                                         </fieldset>
 
                                                             <fieldset>
                                                         
-                                                                <label id="cabecalho">Documentação</label>
+                                                                <label id="cabecalho"><strong>Documentação</strong></label>
     
                                                                 <div>
                                                                     <label>CPF</label>
-                                                                    <input type="email" name="cpf" id="cpf">
+                                                                    <input type="email" name="cpf" id="cpf" required>
                                                                 </div>
     
                                                                 <div>
                                                                     <label>RG</label>
-                                                                    <input type="email" name="rg" id="rg">
+                                                                    <input type="email" name="rg" id="rg" required>
                                                                 </div>
 
                                                                 <div>
                                                                     <label>Possui Habilitação?</label>
-                                                                    <select id="habilitacao">
+                                                                    <select id="habilitacao" required>
                                                                         <option selected disabled value="">Selecione</option>
                                                                         <option>Sim</option>
                                                                         <option>Não</option>
@@ -182,7 +182,7 @@
 
                                                                 <div>
                                                                     <label>Categoria da CNH</label>
-                                                                    <select id="tipohabilitacao">
+                                                                    <select id="tipohabilitacao" required>
                                                                         <option selected disabled value="">Selecione</option>
                                                                         <option>Não tenho habilitação</option>
                                                                         <option>Categoria "A"</option>
@@ -197,16 +197,17 @@
     
                                                             <fieldset>
                                                         
-                                                            <label id="cabecalho">Informações de Carreira</label>
+                                                            <label id="cabecalho"><strong>Informações de Carreira</strong></label>
 
                                                             <div>
                                                                 <label>Cargo Pretendido</label>
-                                                                <input type="text" name="cargo" id="cargo">
+                                                                <input type="text" name="cargo" id="cargo" required>
                                                             </div>
 
                                                             <div>
                                                                 <label>Senioridade</label>
-                                                                <select id="senioridade" name="senioridade">
+                                                                <select id="senioridade" name="senioridade" required>
+                                                                    <option selected disabled value="">Selecione</option>
                                                                     <option>Estagiário</option>
                                                                     <option>Júnior</option>
                                                                     <option>Pleno</option>
@@ -215,7 +216,7 @@
                                                                 </select>
                                                             </div>
 
-                                                            <div>
+                                                            <div id="check">
                                                                 <label>Tecnologias</label>
                                                                 <input type="checkbox" id="tecnologia" name="tecnologia1" value="html">
                                                                 <label for="tecnologia1">HTML5</label>
@@ -345,12 +346,13 @@
                                                                 
                                                             </div>
 
-                                                            <div>
-                                                                <label>Cargo Pretendido</label>
-                                                                <input type="text" name="cargo" id="cargo">
-                                                            </div>
+                                                            
 
-                                                        </fieldset>                                                       
+                                                        </fieldset> 
+                                                        
+                                                        <div>
+                                                            <button class="botao">Salvar</button>
+                                                        </div>
 
                                                     </form>
 
