@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -47,69 +47,312 @@
                                     <span class="section-heading-lower">Conquiste sua Vaga</span>
                                 </h2>
                                 <p>Preencha o formulário abaixo para garantir sua oportunidade no mercado
-                                    de trabalho que mais cresce no mundo.</p>
+                                    de trabalho que mais cresce no mundo!</p>
                                 <section class="page-section about-heading">
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-xl-9 col-lg-10 mx-auto">
                                                 <div class="bg-faded rounded p-5">
 
-                                                    <form class="row g-3 needs-validation" novalidate id="formulario">
-                                                        <div class="col-md-4 position-relative">
-                                                          <label for="validationTooltip01" class="form-label">Nome Completo: </label>
-                                                          
-                                                          <input type="text" class="form-control" id="nome-completo" >
-                                                          <div class="valid-tooltip">
-                                                            
-                                                          </div>
-                                                        </div>
-                                                        <div class="col-md-4 position-relative">
-                                                          <label for="validationTooltip02" class="form-label">Email: </label>
-                                                          
-                                                          <input type="text" class="form-control" id="email">
-                                                          
-                                                          <div class="valid-tooltip">
-                                                            
-                                                          </div>
-                                                        </div>
-                                                        <div class="col-md-4 position-relative">
-                                                          <label for="validationTooltipUsername" class="form-label">Username</label>
-                                                          <div class="input-group has-validation">
-                                                            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-                                                            <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
-                                                            <div class="invalid-tooltip">
-                                                              
+                                                    <form>
+
+                                                        <fieldset>
+                                                            <label id="cabecalho">Informações Pessoais</label>
+                                                            <div>
+                                                                <label>Nome Completo</label>
+                                                                <input type="text" name="nome" id="nome">
                                                             </div>
-                                                          </div>
-                                                        </div>
-                                                        <div class="col-md-6 position-relative">
-                                                          <label for="validationTooltip03" class="form-label">City</label>
-                                                          <input type="text" class="form-control" id="validationTooltip03" required>
-                                                          <div class="invalid-tooltip">
-                                                            
-                                                          </div>
-                                                        </div>
-                                                        <div class="col-md-3 position-relative">
-                                                          <label for="validationTooltip04" class="form-label">State</label>
-                                                          <select class="form-select" id="validationTooltip04" required>
-                                                            <option selected disabled value="">Choose...</option>
-                                                            <option>...</option>
-                                                          </select>
-                                                          <div class="invalid-tooltip">
-                                                            
-                                                          </div>
-                                                        </div>
-                                                        <div class="col-md-3 position-relative">
-                                                          <label for="validationTooltip05" class="form-label">Zip</label>
-                                                          <input type="text" class="form-control" id="validationTooltip05" required>
-                                                          <div class="invalid-tooltip">
-                                                            
-                                                          </div>
-                                                        </div>
-                                                        <div class="col-12">
-                                                          <button class="btn btn-primary" type="submit">Submit form</button>
-                                                        </div>
-                                                      </form>
+
+                                                            <div>
+                                                                <label>Genero</label>
+                                                                <select id="genero">
+                                                                    <option selected disabled value="">Selecione</option>
+                                                                    <option>Feminino</option>
+                                                                    <option>Masculino</option>
+                                                                    <option>Não-binárie</option>
+                                                                    <option>Outro</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div>
+                                                                <label>Estado Civil</label>
+                                                                <select id="estadocivil">
+                                                                    <option selected disabled value="">Selecione</option>
+                                                                    <option>Solteiro(a)</option>
+                                                                    <option>Casado(a)</option>
+                                                                    <option>Viúvo(a)</option>
+                                                                    <option>Divorciado(a)</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div>
+                                                                <label>Endereço</label>
+                                                                <input type="text" name="endereco" id="endereco">
+                                                            </div>
+
+                                                            <div>
+                                                                <label>CEP</label>
+                                                                <input type="email" name="cep" id="cep">
+                                                            </div>
+
+                                                            <div>
+                                                                <label>Bairro</label>
+                                                                <input type="text" name="bairro" id="bairro">
+                                                            </div>
+
+                                                            <div>
+                                                                <label>Cidade</label>
+                                                                <input type="text" name="cidade" id="cidade">
+                                                            </div>
+
+                                                            <div>
+                                                                <label>Estado</label>
+                                                                <select id="estado">
+                                                                    <option selected disabled value="">Selecione</option>
+                                                                    <option>Acre</option>
+                                                                    <option>Alagoas</option>
+                                                                    <option>Amapá</option>
+                                                                    <option>Amazonas</option>
+                                                                    <option>Bahia</option>
+                                                                    <option>Ceará </option>
+                                                                    <option>Distrito Federal</option>
+                                                                    <option>Espírito Santo</option>
+                                                                    <option>Goiás</option>
+                                                                    <option>Maranhão</option>
+                                                                    <option>Mato Grosso</option>
+                                                                    <option>Mato Grosso do Sul</option>
+                                                                    <option>Minas Gerais</option>
+                                                                    <option>Pará</option>
+                                                                    <option>Paraíba</option>
+                                                                    <option>Paraná</option>
+                                                                    <option>Pernambuco</option>
+                                                                    <option>Piauí</option>
+                                                                    <option>Rio de Janeiro</option>
+                                                                    <option>Rio Grande do Norte</option>
+                                                                    <option>Rio Grande do Sul</option>
+                                                                    <option>Rondônia</option>
+                                                                    <option>Roraima</option>
+                                                                    <option>Santa Catarina</option>
+                                                                    <option>São Paulo</option>
+                                                                    <option>Sergipe</option>
+                                                                    <option>Tocantins</option>
+                                                                </select>
+                                                            </div>
+
+                                                        </fieldset>
+
+                                                        <fieldset>
+                                                        
+                                                            <label id="cabecalho">Contato</label>
+
+                                                            <div>
+                                                                <label>Email</label>
+                                                                <input type="email" name="email" id="email">
+                                                            </div>
+
+                                                            <div>
+                                                                <label>Celular</label>
+                                                                <input type="tel" name="celular" id="celular" pattern="[0-9]{1}-[0-9]{4}-[0-9]{4}">
+                                                            </div>
+
+                                                        </fieldset>
+
+                                                            <fieldset>
+                                                        
+                                                                <label id="cabecalho">Documentação</label>
+    
+                                                                <div>
+                                                                    <label>CPF</label>
+                                                                    <input type="email" name="cpf" id="cpf">
+                                                                </div>
+    
+                                                                <div>
+                                                                    <label>RG</label>
+                                                                    <input type="email" name="rg" id="rg">
+                                                                </div>
+
+                                                                <div>
+                                                                    <label>Possui Habilitação?</label>
+                                                                    <select id="habilitacao">
+                                                                        <option selected disabled value="">Selecione</option>
+                                                                        <option>Sim</option>
+                                                                        <option>Não</option>
+                                                                    </select>
+                                                                </div>
+
+                                                                <div>
+                                                                    <label>Categoria da CNH</label>
+                                                                    <select id="tipohabilitacao">
+                                                                        <option selected disabled value="">Selecione</option>
+                                                                        <option>Não tenho habilitação</option>
+                                                                        <option>Categoria "A"</option>
+                                                                        <option>Categoria "B"</option>
+                                                                        <option>Categoria "C"</option>
+                                                                        <option>Categoria "D"</option>
+                                                                        <option>Categoria "E"</option>
+                                                                    </select>
+                                                                </div>
+    
+                                                            </fieldset>
+    
+                                                            <fieldset>
+                                                        
+                                                            <label id="cabecalho">Informações de Carreira</label>
+
+                                                            <div>
+                                                                <label>Cargo Pretendido</label>
+                                                                <input type="text" name="cargo" id="cargo">
+                                                            </div>
+
+                                                            <div>
+                                                                <label>Senioridade</label>
+                                                                <select id="senioridade" name="senioridade">
+                                                                    <option>Estagiário</option>
+                                                                    <option>Júnior</option>
+                                                                    <option>Pleno</option>
+                                                                    <option>Sênior</option>
+                                                                    <option>Diretoria</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <div>
+                                                                <label>Tecnologias</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia1" value="html">
+                                                                <label for="tecnologia1">HTML5</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia2" value="html">
+                                                                <label for="tecnologia2">CSS3</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia3" value="html">
+                                                                <label for="tecnologia3">Python</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia4" value="html">
+                                                                <label for="tecnologia4">Java</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia5" value="html">
+                                                                <label for="tecnologia5">JavaScript</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia6" value="html">
+                                                                <label for="tecnologia6">C</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia7" value="html">
+                                                                <label for="tecnologia7">C#</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia8" value="html">
+                                                                <label for="tecnologia8">C++</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia9" value="html">
+                                                                <label for="tecnologia9">Ruby</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia10" value="html">
+                                                                <label for="tecnologia10">Kotlin</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia11" value="html">
+                                                                <label for="tecnologia11">Flutter</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia12" value="html">
+                                                                <label for="tecnologia12">Jupyter</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia13" value="html">
+                                                                <label for="tecnologia13">.NET</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia14" value="html">
+                                                                <label for="tecnologia14">TypeScript</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia15" value="html">
+                                                                <label for="tecnologia15">Pandas</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia16" value="html">
+                                                                <label for="tecnologia16">PHP</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia17" value="html">
+                                                                <label for="tecnologia17">R</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia18" value="html">
+                                                                <label for="tecnologia18">Go</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia19" value="html">
+                                                                <label for="tecnologia19">Swift</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia20" value="html">
+                                                                <label for="tecnologia20">PL/SQL</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia21" value="html">
+                                                                <label for="tecnologia1">Rust</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia22" value="html">
+                                                                <label for="tecnologia1">SQL</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia23" value="html">
+                                                                <label for="tecnologia1">TeX</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia24" value="html">
+                                                                <label for="tecnologia1">Scratch</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia25" value="html">
+                                                                <label for="tecnologia1">Scala</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia26" value="html">
+                                                                <label for="tecnologia1">SASS</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia27" value="html">
+                                                                <label for="tecnologia1">COBOL</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia28" value="html">
+                                                                <label for="tecnologia1">Perl</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia29" value="html">
+                                                                <label for="tecnologia1">Pascal</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia30" value="html">
+                                                                <label for="tecnologia1">Objective-C</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia31" value="html">
+                                                                <label for="tecnologia1">Julia</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia32" value="html">
+                                                                <label for="tecnologia1">Haskell</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia33" value="html">                                                               
+                                                                <label for="tecnologia1">Elixir</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia34" value="html">
+                                                                <label for="tecnologia1">Erlang</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia35" value="html">                       
+                                                                <label for="tecnologia1">Crystal</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia36" value="html">
+                                                                <label for="tecnologia1">Dart</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia37" value="html">
+                                                                <label for="tecnologia1">Lua</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia38" value="html">
+                                                                <label for="tecnologia1">Delphi</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia39" value="html">
+                                                                <label for="tecnologia1">Keras</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia40" value="html">
+                                                                <label for="tecnologia1">CoffeeScript</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia41" value="html">                                                               
+                                                                <label for="tecnologia1">Numpy</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia42" value="html">
+                                                                <label for="tecnologia1">LateX</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia43" value="html">                       
+                                                                <label for="tecnologia1">JSON</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia44" value="html">
+                                                                <label for="tecnologia1">MySQL</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia45" value="html">
+                                                                <label for="tecnologia1">PostgreSQL</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia46" value="html">
+                                                                <label for="tecnologia1">MongoDB</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia47" value="html">
+                                                                <label for="tecnologia1">SQLite</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia48" value="html">
+                                                                <label for="tecnologia1">SQL Server</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia49" value="html">                                                               
+                                                                <label for="tecnologia1">Cassandra</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia50" value="html">
+                                                                <label for="tecnologia1">React</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia51" value="html">                       
+                                                                <label for="tecnologia1">Node.js</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia52" value="html">
+                                                                <label for="tecnologia1">Yarn</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia53" value="html">
+                                                                <label for="tecnologia1">Vue</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia54" value="html">
+                                                                <label for="tecnologia1">Angular</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia55" value="html">
+                                                                <label for="tecnologia1">Bootstrap</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia56" value="html">
+                                                                <label for="tecnologia1">JQuery</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia57" value="html">                                                               
+                                                                <label for="tecnologia1">Django</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia58" value="html">
+                                                                <label for="tecnologia1">Lavarel</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia59" value="html">                       
+                                                                <label for="tecnologia1">Spring</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia60" value="html">
+                                                                <label for="tecnologia1">SAP</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia61" value="html">
+                                                                <label for="tecnologia1">Jasmine</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia62" value="html">
+                                                                <label for="tecnologia1">JUnit</label>
+                                                                <input type="checkbox" id="tecnologia" name="tecnologia63" value="html">
+                                                                
+                                                            </div>
+
+                                                            <div>
+                                                                <label>Cargo Pretendido</label>
+                                                                <input type="text" name="cargo" id="cargo">
+                                                            </div>
+
+                                                        </fieldset>                                                       
+
+                                                    </form>
 
                                                 </div>
                                             </div>
@@ -123,7 +366,7 @@
             </div>
         </section>
         <footer class="footer text-faded text-center py-5">
-            <div class="container"><p class="m-0 small">Copyright &copy; Your Website 2021</p></div>
+            <div class="container"><p class="m-0 small">Author: Eduarda Alves (2021)</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
