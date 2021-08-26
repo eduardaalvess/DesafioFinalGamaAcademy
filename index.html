@@ -1,84 +1,173 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Tech Jobs</title>
-        <link rel="icon" type="image/x-icon" href="img/TechJobsLogo.png" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <header>
-            <h1 class="site-heading text-center text-faded d-none d-lg-block">
-                <span class="site-heading-lower">TECH JOBS</span>
-                <span class="site-heading-upper text-primary mb-3">Vagas para profissionais de TI</span>
-            </h1>
-        </header>
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Home</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="cadastro.html">Cadastre-se</a></li>
-                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="vagas.html">Vagas</a></li>
-                        
-                    </ul>
-                </div>
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+
+    <title>JobsNET</title>
+
+</head>
+
+<body>
+    <div>
+        <h1 id="titulo">
+            JobsNET
+        </h1>
+        <p id="subtitle">Cadastre-se para concorrer às nossas vagas!</p>
+    </div>
+
+    <form>
+        <fieldset>
+            <h3 id="descricao">Informações Pessoais</h3>
+            <div class="divisoria">
+                <label for="nome"><strong>Nome Completo</strong></label>
+                <input type="text" name="nome" id="nome" required>
             </div>
-        </nav>
-        <section class="page-section clearfix">
-            <div class="container">
-                <div class="intro">
-                    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/tech1.jpg" alt="Profissional de Tecnologia Sorrindo" />
-                    <div class="intro-text left-0 text-center bg-faded p-5 rounded">
-                        <h2 class="section-heading mb-4">
-                            <span class="section-heading-upper">Great Place To Work</span>
-                            <span class="section-heading-lower">Melhores Empresas</span>
-                        </h2>
-                        <p class="mb-3"> As melhores empresas para trabalhar contratam aqui! 
-                            Faça seu cadastro e candidate-se as nossas vagas! </p>
-                        <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="cadastro.html">Cadastre-se Agora!</a></div>
-                    </div>
-                </div>
+            <div class="divisoria">
+                <label for="data"><strong>Data de Nascimento</strong></label>
+                <input type="text" name="data" id="data" required>
             </div>
-        </section>
-        <section class="page-section cta">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-9 mx-auto">
-                        <div class="cta-inner bg-faded text-center rounded">
-                            <h2 class="section-heading mb-4">
-                                <span class="section-heading-upper">Nosso compromisso</span>
-                                <span class="section-heading-lower">É com você</span>
-                            </h2>
-                            <p class="mb-0"> Estamos trabalhando duro todos os dias
-                                para melhorar sua experiência em nossa plataforma!
-                                Nosso objetivo é melhorar e simplificar as contratações,
-                                para que assim, ótimos profissionais possam encontrar ótimas
-                                empresas.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+            <div>
+                <label>CPF</label>
+                <input type="email" name="cpf" id="cpf" required>
             </div>
-        </section>
-        <footer class="footer text-faded text-center py-5">
-            <div class="container"><p class="m-0 small">Author: Eduarda Alves (2021)</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+            <div>
+                <label>RG</label>
+                <input type="email" name="rg" id="rg" required>
+            </div>
+            <div class="divisoria">
+                <label for="sexo"><strong>Sexo</strong></label>
+                <select id="sexo" name="sexo" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Feminino</option>
+                    <option>Masculino</option>
+                    <option>Outro</option>
+                </select>
+            </div>
+            <div class="divisoria">
+                <label for="estado-civil"><strong>Estado Civil</strong></label>
+                <select id="estado-civil" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Solteiro(a)</option>
+                    <option>Casado(a)</option>
+                    <option>Viúvo(a)</option>
+                    <option>Divorciado(a)</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <h3 id="descricao">Informações de Contato</h3>
+            <div class="divisoria">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="divisoria">
+                <label for="telefone"><strong>Celular (com DDD)</strong></label>
+                <input type="telefone" name="telefone" id="telefone" pattern="[0-11]{2}[0-11]{1}-[0-11]{4}-[0-11]{4}" required>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <h3 id="descricao">Informações de Contato</h3>
+            <div class="divisoria">
+                <label for="nome"><strong>Rua/Logradouro</strong></label>
+                <input type="text" name="rua" id="rua" required>
+            </div>
+            <div class="divisoria">
+                <label for="nome"><strong>CEP</strong></label>
+                <input type="text" name="cep" id="cep" required>
+            </div>
+            <div class="divisoria">
+                <label for="data"><strong>Bairro</strong></label>
+                <input type="text" name="bairro" id="bairro" required>
+            </div>
+            <div class="divisoria">
+                <label for="sexo"><strong>Cidade</strong></label>
+                <input type="text" name="cidade" id="cidade" required>
+            </div>
+            <div class="divisoria">
+                <label for="estado"><strong>Estado</strong></label>
+                <select id="estado" required>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Acre</option>
+                    <option>Alagoas</option>
+                    <option>Amapá</option>
+                    <option>Amazonas</option>
+                    <option>Bahia</option>
+                    <option>Ceará </option>
+                    <option>Distrito Federal</option>
+                    <option>Espírito Santo</option>
+                    <option>Goiás</option>
+                    <option>Maranhão</option>
+                    <option>Mato Grosso</option>
+                    <option>Mato Grosso do Sul</option>
+                    <option>Minas Gerais</option>
+                    <option>Pará</option>
+                    <option>Paraíba</option>
+                    <option>Paraná</option>
+                    <option>Pernambuco</option>
+                    <option>Piauí</option>
+                    <option>Rio de Janeiro</option>
+                    <option>Rio Grande do Norte</option>
+                    <option>Rio Grande do Sul</option>
+                    <option>Rondônia</option>
+                    <option>Roraima</option>
+                    <option>Santa Catarina</option>
+                    <option>São Paulo</option>
+                    <option>Sergipe</option>
+                    <option>Tocantins</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <h3 id="descricao">Informações de Trabalho</h3>
+                <div class="divisoria">
+                    <label>Cargo Pretendido</label>
+                    <input type="text" name="cargo" id="cargo" required>
+                </div>
+                <div class="divisoria">
+                    <label>Senioridade</label>
+                    <select id="senioridade" name="senioridade" required>
+                        <option selected disabled value="">Selecione</option>
+                        <option>Estagiário</option>
+                        <option>Júnior</option>
+                        <option>Pleno</option>
+                        <option>Sênior</option>
+                        <option>Diretoria</option>
+                    </select>
+                </div>
+                <div class="divisoria">
+                    <label>Categoria da CNH</label>
+                    <select id="tipohabilitacao" required>
+                        <option selected disabled value="">Selecione</option>
+                        <option>Não tenho habilitação</option>
+                        <option>Categoria "A"</option>
+                        <option>Categoria "B"</option>
+                        <option>Categoria "C"</option>
+                        <option>Categoria "D"</option>
+                        <option>Categoria "E"</option>
+                    </select>
+                </div>
+                <div class="divisoria">
+                    <label>Possui Habilitação?</label>
+                    <select id="habilitacao" required>
+                        <option selected disabled value="">Selecione</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+                <div class="divisoria">
+                    <br>
+                    <label for="experiencia"><strong>Conte um pouco mais sobre a sua experiência: </strong></label>
+                    <textarea rows="5" cols="80" id="experiencia" name="experiencia">Suas conquistas, prêmios, certificações...</textarea>
+                </div>
+        </fieldset>
+    </form>
+</body>
 </html>
