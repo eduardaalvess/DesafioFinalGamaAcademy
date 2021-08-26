@@ -3,7 +3,6 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="style.css" media="screen">
@@ -17,11 +16,11 @@
         <h1 id="titulo">
             JobsNET
         </h1>
-        <p id="subtitle">Cadastre-se para concorrer às nossas vagas!</p>
+        <p id="subtitulo">Cadastre-se para concorrer às nossas vagas!</p>
     </div>
 
     <form>
-        <fieldset>
+        <fieldset class="master">
             <h3 id="descricao">Informações Pessoais</h3>
             <div class="divisoria">
                 <label for="nome"><strong>Nome Completo</strong></label>
@@ -31,12 +30,12 @@
                 <label for="data"><strong>Data de Nascimento</strong></label>
                 <input type="text" name="data" id="data" required>
             </div>
-            <div>
-                <label>CPF</label>
+            <div class="divisoria">
+                <label for="cpf"><strong>CPF</strong></label>
                 <input type="email" name="cpf" id="cpf" required>
             </div>
-            <div>
-                <label>RG</label>
+            <div class="divisoria">
+                <label for="rg"><strong>RG</strong></label>
                 <input type="email" name="rg" id="rg" required>
             </div>
             <div class="divisoria">
@@ -60,7 +59,7 @@
             </div>
         </fieldset>
 
-        <fieldset>
+        <fieldset class="master">
             <h3 id="descricao">Informações de Contato</h3>
             <div class="divisoria">
                 <label for="email"><strong>Email</strong></label>
@@ -72,8 +71,8 @@
             </div>
         </fieldset>
 
-        <fieldset>
-            <h3 id="descricao">Informações de Contato</h3>
+        <fieldset class="master">
+            <h3 id="descricao">Endereço</h3>
             <div class="divisoria">
                 <label for="nome"><strong>Rua/Logradouro</strong></label>
                 <input type="text" name="rua" id="rua" required>
@@ -125,7 +124,7 @@
             </div>
         </fieldset>
 
-        <fieldset>
+        <fieldset class="master">
             <h3 id="descricao">Informações de Trabalho</h3>
                 <div class="divisoria">
                     <label>Cargo Pretendido</label>
