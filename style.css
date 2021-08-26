@@ -1,10 +1,25 @@
 #titulo {
     font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: calc(1.375rem + 1.5vw);
+    font-size: 80px;
+    color: #232931;
+    font-weight: 100;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 30%;
+}
+
+h3 {
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #393E46;
 }
 
 #subtitulo {
     font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #232931;
+    font-size: 20px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 25%;
 }
 
 .divisoria {
@@ -14,21 +29,23 @@
 .divisoria label {
     margin-bottom: 0.2em;
     font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    color: #000000;
+    color: #232931;
     display: block;
+    font-weight: 900;
 }
 
 body {
-    background-color: #4863A0;
+    background: url(office.jpg) no-repeat center;
+    background-color: #557571;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 2%;
-
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 fieldset {
     border: 0;
-    background-color: #fff;
+    background-color: #F0ECE2;
     
 }
 
@@ -49,4 +66,22 @@ textarea {
     line-height: 1;
     border-radius: 5px;
     box-shadow: 1px 1px 1px #999;
+}
+
+.botao {
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid;
+    color: black;
+    margin-left: 42%;
+    font-size: 20px;
+    background: #F9F7F7;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: #393E46;
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
